@@ -1,0 +1,22 @@
+
+set terminal x11
+set output
+
+rmax = 5
+nmax = 100
+
+complex (x, y) = x * {1, 0} + y * {0, 1}
+mandel (x, y, z, n) = (abs (z)> rmax || n>= 100)? n: mandel (x, y, z * z + complex (x, y), n + 1)
+
+set xrange [-0.5:0.5]
+set yrange [-0.5:0.5]
+set logscale z
+set samples 200
+set isosample 200
+set pm3d map
+set size square
+a= #A#
+b= #B#
+splot mandel(-a/100,-b/100,complex(x,y),0) notitle
+
+
