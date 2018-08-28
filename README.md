@@ -16,4 +16,8 @@ print a command line calendar of chosen size.
   ./a.out [max number of characters displayed for every weekday] [day of the firstday of the year] 
 ```
 
-### 
+### Bmp editing 
+edit a bitmap file
+- part 1 
+- part 2 
+- part 3 
