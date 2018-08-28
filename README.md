@@ -18,6 +18,10 @@ print a command line calendar of chosen size.
 
 ### Bmp editing 
 edit a bitmap file
-- part 1 
-- part 2 
+- part 1 : display a bitmap's info 
+```
+gcc bmp_info.c A2_bmp_helpers.c -o bmp_info
+./bmp_info [bmp file]
+```
+- part 2 : change the 
 - part 3 
