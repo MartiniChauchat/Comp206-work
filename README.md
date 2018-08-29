@@ -34,3 +34,17 @@ here is an example included
 gcc bmp_collage.c A2_bmp_helpers.c -o bmp_collage
 ./bmp_collage metro_top_left.bmp metro_top_right.bmp metro_collage.bmp 65 135
 ```
+
+### Multi-process sorting
+This is a demo for sort a long string array in multi-process that implement by 
+semaphore-based synchronization, you can find the outputs in **/outputs** , use 
+```
+make 
+```
+to unwrap the program 
+use 
+```
+make test_single_short
+make test_single_long
+```
+to test sorting in single-process
