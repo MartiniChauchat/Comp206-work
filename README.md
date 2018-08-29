@@ -29,7 +29,8 @@ gcc bmp_mask.c A2_bmp_helpers.c -o bmp_mask
 ./bmp_mask [input bmp] [output bmp] [x_1] [x_2] [y_1] [y_2] [Red] [Green] [Blue]
 ```
 - part 3 : collage different bmp into one piece 
+here is an example included
 ```
 gcc bmp_collage.c A2_bmp_helpers.c -o bmp_collage
-./bmp_collage metro_top_left.bmp metro_top_right.bmp metro_collage.bmp 65 135 //this is an included example
+./bmp_collage metro_top_left.bmp metro_top_right.bmp metro_collage.bmp 65 135
 ```
