@@ -48,3 +48,12 @@ make test_single_short
 make test_single_long
 ```
 to test sorting in single-process
+and use 
+```
+make test_multi_short
+make test_multi_long
+```
+to test sorting in multi-process 
+
+## Contributor
++ Yudi Xie
